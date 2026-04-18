@@ -1,10 +1,7 @@
-#include getest/gtest.h>
+#include <getest/gtest.h>
+#include "math.h"
 
-int add(int a, int b) {
-    return a + b;
-}
-
-Test(AdditionTest, HandlesPositiveNumbers) {
+TEST(AdditionTest, HandlesPositiveNumbers) {
     EXPECT_EQ(add(1, 2), 3);
 }
 
