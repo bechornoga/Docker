@@ -1,4 +1,4 @@
-#include <getest/gtest.h>
+#include <gtest/gtest.h>
 #include "math.h"
 
 TEST(AdditionTest, HandlesPositiveNumbers) {
